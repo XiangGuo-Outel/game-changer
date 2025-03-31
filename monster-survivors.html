@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - Thrilling Online Survival Game</title>
+    <meta name="description" content="Play Monster Survivors online for free! Survive waves of monsters in this thrilling action-packed game. No download required.">
+    <link rel="canonical" href="https://monstersurvivors.com/monster-survivors">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            blue: '#007AFF',
+                            red: '#FF3B30',
+                            green: '#34C759',
+                            gray: '#8E8E93',
+                            darkgray: '#1C1C1E',
+                            lightgray: '#F2F2F7'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+        }
+    </style>
+</head>
+<body class="bg-apple-lightgray dark:bg-apple-darkgray text-gray-800 dark:text-white min-h-screen">
+    <header class="bg-gradient-to-r from-apple-blue to-purple-600 text-white py-8 px-4 md:px-8 shadow-lg">
+        <div class="container mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold text-center text-shadow mb-4">Monster Survivors</h1>
+            <p class="text-xl md:text-2xl text-center font-light">Survive the endless waves of monsters in this action-packed adventure!</p>
+        </div>
+    </header>
+
+    <nav class="bg-white dark:bg-gray-800 shadow-md py-4">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between">
+                <a href="index.html" class="flex items-center text-apple-blue">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+                    </svg>
+                    Back to Games
+                </a>
+                <div class="flex space-x-4">
+                    <a href="#game" class="text-apple-blue hover:underline">Play</a>
+                    <a href="#overview" class="text-apple-blue hover:underline">Overview</a>
+                    <a href="#how-to-play" class="text-apple-blue hover:underline">How to Play</a>
+                    <a href="#tips" class="text-apple-blue hover:underline">Tips</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8">
+        <section id="game" class="mb-12">
+            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
+                <div class="aspect-w-16 aspect-h-9 w-full">
+                    <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                            class="w-full h-[500px] md:h-[600px] border-0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="overview" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-apple-blue dark:text-apple-blue">Game Overview</h2>
+            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                <p class="mb-4">Monster Survivors is an exciting survival game where you must fight against endless waves of monsters. Test your skills, upgrade your character, and see how long you can survive in this challenging world.</p>
+                <p>With simple controls and addictive gameplay, Monster Survivors offers hours of entertainment for players of all skill levels. The game features stunning graphics, immersive sound effects, and progressively challenging gameplay that will keep you coming back for more.</p>
+            </div>
+        </section>
+
+        <section id="how-to-play" class="mb-12 grid md:grid-cols-2 gap-8">
+            <div>
+                <h2 class="text-3xl font-bold mb-6 text-apple-blue dark:text-apple-blue">How to Play</h2>
+                <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Use WASD or arrow keys to move your character</li>
+                        <li>Automatically attack nearby monsters</li>
+                        <li>Collect experience points to level up</li>
+                        <li>Choose powerful upgrades to enhance your abilities</li>
+                        <li>Survive as long as possible against increasingly difficult waves</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold mb-6 text-apple-blue dark:text-apple-blue">Game Features</h2>
+                <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Multiple character classes with unique abilities</li>
+                        <li>Dozens of different monsters to battle</li>
+                        <li>Various weapons and power-ups to discover</li>
+                        <li>Procedurally generated levels for endless replayability</li>
+                        <li>Challenging boss fights that test your skills</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="tips" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-apple-blue dark:text-apple-blue">Tips & Strategies</h2>
+            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                <p class="mb-4">To maximize your survival time in Monster Survivors, consider these helpful strategies:</p>
+                <ol class="list-decimal pl-5 space-y-2">
+                    <li>Focus on movement speed upgrades early to avoid being surrounded</li>
+                    <li>Balance your offensive and defensive abilities</li>
+                    <li>Don't stay in one place for too long - keep moving!</li>
+                    <li>Prioritize eliminating stronger monsters first</li>
+                    <li>Collect all experience gems to level up faster</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-apple-blue dark:text-apple-blue">Similar Games You Might Enjoy</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <a href="zombie-shooter.html" class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4 hover:shadow-xl transition">
+                    <img src="https://via.placeholder.com/300x200?text=Zombie+Shooter" alt="Zombie Shooter" class="w-full h-40 object-cover rounded-lg mb-4">
+                    <h3 class="font-bold text-lg">Zombie Shooter</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Fight hordes of zombies in this fast-paced shooter game!</p>
+                </a>
+                <a href="ninja-warrior.html" class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4 hover:shadow-xl transition">
+                    <img src="https://via.placeholder.com/300x200?text=Ninja+Warrior" alt="Ninja Warrior" class="w-full h-40 object-cover rounded-lg mb-4">
+                    <h3 class="font-bold text-lg">Ninja Warrior</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Test your reflexes in this challenging ninja platformer!</p>
+                </a>
+                <a href="tower-defense.html" class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4 hover:shadow-xl transition">
+                    <img src="https://via.placeholder.com/300x200?text=Tower+Defense" alt="Tower Defense" class="w-full h-40 object-cover rounded-lg mb-4">
+                    <h3 class="font-bold text-lg">Tower Defense</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Build towers to defend against waves of enemies!</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-apple-blue text-white py-8 px-4">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Monster Survivors Gaming</h3>
+                    <p>Your ultimate destination for free online games. Play instantly in your browser!</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Game Categories</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html#action" class="hover:underline">Action Games</a></li>
+                        <li><a href="index.html#adventure" class="hover:underline">Adventure Games</a></li>
+                        <li><a href="index.html#strategy" class="hover:underline">Strategy Games</a></li>
+                        <li><a href="index.html#puzzle" class="hover:underline">Puzzle Games</a></li>
+                        <li><a href="index.html#rpg" class="hover:underline">RPG Games</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <p>Email: info@monstersurvivors.com</p>
+                    <p>Follow us on social media for updates on new games!</p>
+                </div>
+            </div>
+            <div class="border-t border-blue-400 mt-8 pt-8 text-center">
+                <p>&copy; 2023 Monster Survivors Gaming. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add responsive design support -->
+    <style>
+        @media (max-width: 640px) {
+            iframe {
+                height: 300px;
+            }
+        }
+    </style>
+</body>
+</html>
